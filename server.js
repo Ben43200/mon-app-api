@@ -1,6 +1,7 @@
 const express = require("express")
 const app = express()
 const cors = require("cors")
+require('dotenv').config()
 
 app.use(cors())
 
@@ -11,8 +12,8 @@ app.use(cors())
 //     res.send({"name": "Jane Doe"}) // Should be json format
 //   })
 
-app.listen(8080, () => {
-  console.log("app listening on port 3000")
+app.listen(process.env.PORT, () => {
+  console.log("app listening on port you know")
 })
 
 app.get('/', (req, res) => {
