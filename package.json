@@ -19,7 +19,8 @@
     "ws": "^8.16.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "nodemon": "^3.0.2",
+    "webpack-dev-server": "^4.15.1"
   },
   "$schema": "https://railway.app/railway.schema.json",
   "build": {
